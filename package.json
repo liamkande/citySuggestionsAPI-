@@ -1,8 +1,7 @@
 {
   "name": "city-suggestions",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "web.js",
   "dependencies": {
     "csv-parser": "^3.0.0",
     "express": "^4.19.2",
@@ -13,5 +12,14 @@
     "scripts": {
         "test": "node test.js",
         "start": "node index.js"
-    }
+    },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "engines": {
+    "node": "20.x"
+  },
+  "author": "Liam Ansoumane Kande",
+  "license": "MIT"
 }
