@@ -17,13 +17,13 @@ This is a Node.js application that provides auto-complete suggestions for the na
 
 - Node.js and npm installed
 - Heroku CLI installed
-- AWS CLI installed (if deploying to AWS)
+
 
 ### Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/city-suggestions.git
+   git clone https://github.com/liamkande/citySuggestionsAPI-
    cd city-suggestions
 2. Install dependencies:
    ```sh
