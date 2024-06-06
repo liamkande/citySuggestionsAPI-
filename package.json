@@ -11,14 +11,14 @@
   },
     "scripts": {
         "test": "node test.js",
-        "start": "node index.js"
+        "start": "node app.js"
     },
   "keywords": [
     "example",
     "heroku"
   ],
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "author": "Liam Ansoumane Kande",
   "license": "MIT"

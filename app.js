@@ -6,6 +6,9 @@ const { cities, loadCities } = require('./data');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Serve static files from the "public" directory
+app.use(express.static('public'));
+
 app.get('/suggestions', async (req, res) => {
     await loadCities; // Ensure cities data is loaded
 
